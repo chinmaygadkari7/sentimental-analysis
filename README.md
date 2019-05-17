@@ -95,3 +95,12 @@ curl -X POST http://localhost:5000/predict \
 -d 'This is a good movie!'
 
 ```
+
+## Results:
+
+| Metrics    |   SVM  | Logistic Regression |
+| :---       | :---   | :---                |
+| Accuracy   | 81.07% | 81.60%              |
+| Recall     | 79.09% | 79.09%              |
+| Precision  | 82.17% | 83.10%              |
+| F-Measure  | 80.60% | 81.04%              |

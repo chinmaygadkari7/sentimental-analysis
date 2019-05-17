@@ -6,12 +6,10 @@ from sklearn.svm import LinearSVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from nltk.stem import SnowballStemmer
 
 DATA_DIR = 'data'
 MODEL_DIR = 'model'
 SPLITTER = re.compile(r'(\W|\d)+')
-stemmer = SnowballStemmer('english')
 
 def read(filename):
     reviews = []
